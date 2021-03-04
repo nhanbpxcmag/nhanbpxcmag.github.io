@@ -1,0 +1,650 @@
+
+
+<!DOCTYPE html>
+  
+<html>
+<head>
+	<title>
+		Cổng Thông tin điện tử thị xã Tân Châu
+	</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="http://media.angiang.gov.vn/TanChau-Portal/HinhGiaoDien/logo.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no" />
+	<!-- jQuery library -->
+	<script type="text/javascript" src="http://tanchau.angiang.gov.vn/wps/themes/html/tanchauv1/themes/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <!--font-->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300,500&subset=vietnamese,latin-ext' rel='stylesheet' type='text/css'>
+	<!--css-->
+	<link rel="stylesheet" type="text/css" href="http://tanchau.angiang.gov.vn/wps/themes/html/tanchauv1/themes/css/reset.css" /> 
+	<link rel="stylesheet" type="text/css" href="http://tanchau.angiang.gov.vn/wps/themes/html/tanchauv1/themes/css/style.css" /> 
+	<link rel="stylesheet" type="text/css" href="http://tanchau.angiang.gov.vn/wps/themes/html/tanchauv1/themes/css/reponsive.css" /> 
+	<link rel="stylesheet" type="text/css" href="http://tanchau.angiang.gov.vn/wps/themes/html/tanchauv1/themes/css/jquery.mCustomScrollbar.css" />
+	<link rel="stylesheet" type="text/css" href="http://tanchau.angiang.gov.vn/wps/themes/html/tanchauv1/themes/css/ddsmoothmenu.css" />
+	<!--link rel="stylesheet" type="text/css" href='/wps/themes/./dojo132/dijit/themes/tundra/tundra.css' />
+	<link rel="stylesheet" type="text/css" href='/wps/themes/./dojo132/dojo/resources/dojo.css' />
+	<!--js-->
+	<script type="text/javascript" src="http://tanchau.angiang.gov.vn/wps/themes/html/tanchauv1/themes/js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="http://tanchau.angiang.gov.vn/wps/themes/html/tanchauv1/themes/js/jquery.bxslider.js"></script>
+	<script type="text/javascript" src="http://tanchau.angiang.gov.vn/wps/themes/html/tanchauv1/themes/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="http://tanchau.angiang.gov.vn/wps/themes/html/tanchauv1/themes/js/ddsmoothmenu.js"></script>
+	<script type="text/javascript" src="about:blank"></script>
+
+    <script type="text/javascript">
+        ddsmoothmenu.init({ mainmenuid: "smoothmenu1",orientation: 'h', classname: 'ddsmoothmenu',contentsource: "markup" });
+    </script>
+	<!-- Begin EMC Tracking Code -->
+
+<script type="text/javascript">
+
+var _govaq = window._govaq || [];
+
+_govaq.push(['trackPageView']);
+
+_govaq.push(['enableLinkTracking']);
+
+(function () {
+
+_govaq.push(['setTrackerUrl', 'https://f-emc.ngsp.gov.vn/tracking']);
+
+_govaq.push(['setSiteId', '107']);
+
+var d = document,
+
+g = d.createElement('script'),
+
+s = d.getElementsByTagName('script')[0];
+
+g.type = 'text/javascript';
+
+g.async = true;
+
+g.defer = true;
+
+g.src = 'https://f-emc.ngsp.gov.vn/embed/gov-tracking.min.js';
+
+s.parentNode.insertBefore(g, s);
+
+})();
+
+</script>
+<style>
+.banner_top{
+	display: inline-block;
+	width: 1440px;
+	background: url(banner.jpg)  repeat-x;
+	z-index: 110;
+	position: absolute;
+}
+.img_banner_top_trai{
+	width: 100%;
+	object-fit: none;
+	height: 100%;
+}
+.banner_top_trai{
+	width: 70%;
+	float: left;
+	height: 132px;
+}
+.banner_top_phai{
+	width: 30%;
+	float: right;
+	height: 132px;
+	padding: 0%;
+	z-index: -1;
+	position: absolute;
+}
+.img_banner_top_phai{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container {
+    position: relative;
+	width: 1440px;
+	height: 212px;
+	float: left;
+	margin-top: -3px;
+}
+.object2 {	
+	height: 212px;    
+    position: absolute;
+    top: 0;
+	right: 0;
+    width: 100%;
+    z-index: 10;
+}
+.img_banner_top_phai{
+	height: 212px;
+}
+</style>
+<!-- End EMC Tracking Code -->
+</head>
+<body>
+
+<div id="time_slogan">
+    <div class="time_slogan">
+        <div class="time_menu">
+            <div class="date_time" id="date_time"></div>
+            <div class="date_time" id="date_time1"></div>
+        </div>
+        <div class="slogan_top">
+            Chào mừng bạn đến với Cổng Thông tin điện tử Thị xã Tân Châu - Tỉnh An Giang
+        </div>
+    </div>
+</div>
+
+<div id="header_top">
+    <div class="header_top">
+        <a class="slogan" href="">
+            <img src="banner top/banner.jpg" />
+        </a>
+    </div>
+</div>
+
+<div class="container">	
+	<div class="object2">
+		<div class="owl-carousel owl-theme">
+			<div class="item"><img class="img_banner_top_phai" src="banner top/1.jpg" /></div>
+			<div class="item"><img class="img_banner_top_phai" src="banner top/2.jpg" /></div>
+			<div class="item"><img class="img_banner_top_phai" src="banner top/3.jpg" /></div>
+			<div class="item"><img class="img_banner_top_phai" src="banner top/4.jpg" /></div>
+			<div class="item"><img class="img_banner_top_phai" src="banner top/5.jpg" /></div>
+			<div class="item"><img class="img_banner_top_phai" src="banner top/6.jpg" /></div>
+			<div class="item"><img class="img_banner_top_phai" src="banner top/7.jpg" /></div>
+			<div class="item"><img class="img_banner_top_phai" src="banner top/8.jpg" /></div>
+			<div class="item"><img class="img_banner_top_phai" src="banner top/9.jpg" /></div>
+			<div class="item"><img class="img_banner_top_phai" src="banner top/10.jpg" /></div>
+		</div>	
+	</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" rel="stylesheet" media="screen">
+<script>
+$('.owl-carousel').owlCarousel({
+    loop: true,
+        margin: 0,
+        dots: false,
+        nav: false,
+        autoplay: true,
+        smartSpeed: 2000,
+        addClassActive: true,
+        lazyload: true,
+        animateIn: 'fadeIn',
+animateOut: 'fadeOut',
+    //animateOut: getRandomAnimation,
+    //animateIn: getRandomAnimation,
+	responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1,
+                loop: true
+            }
+        
+  }
+
+
+
+});
+</script>
+<script type="text/javascript">var dndAddUrl = "http://tanchau.angiang.gov.vn/wps/portal/Home/main/trang-chu/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L3dDb1ZJQSEhL3dPb0JKTnNBLzRFS2lqaFVNV0hFIS95elQwTHppRl9rdy8xNTY5L0ROREFkZFBvcnRsZXRDb21tYW5k/";var dndMoveUrl = "http://tanchau.angiang.gov.vn/wps/portal/Home/main/trang-chu/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L3dDb1ZJQSEhL3dPb0JKTnNBLzRFS2lqaFVNV0hFIS9OelQwTHppRl9sQS8xNTcwL0RORE1vdmVQb3J0bGV0Q29tbWFuZA!!/";function DNDPAAJS(containerID, index){document._DNDBroker.activeTarget.active_action.action=dndAddUrl;document._DNDBroker.addFormParam("container_id", containerID);document._DNDBroker.addFormParam("index", index);}function DNDPMAJS(containerID, index){document._DNDBroker.activeTarget.active_action.action=dndMoveUrl;document._DNDBroker.addFormParam("container_id", containerID);document._DNDBroker.addFormParam("index", index);}</script><script type="text/javascript" src="http://tanchau.angiang.gov.vn/wps/dnd/DND.js"></script><script type="text/javascript">document._DNDBroker.isBidi=false;</script><div id='wp_ds8' style='display:inline' >
+	<div class="menu_header">
+    <div class="menu_header1">
+        <div class="top-nav">
+            <div class="menu" id="mouseoverTable_Z7_99DI0K41L0T2D0QQ47H10H3DB0">
+                <div id="smoothmenu1" class="ddsmoothmenu">
+                    <ul id="menu">
+	
+	
+	
+	
+	
+	
+	
+		
+		
+	<!-- bat dau skin -->
+				<li class="li_pr">
+					
+					<a id='tc.home'  href='/wps/portal/Home/main/trang-chu/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTDBUMkQwUVE0N0gxMEgzTFE0/'
+						title='' onclick='LoadmenuLeft_tanchau("tc.home");'>
+							<span  id='_span' >Trang chủ   </span>
+								  
+					</a>
+				
+				<ul id="tc.home_child"  class="tanchau_sub1 menu_hover" style="" >
+					
+				</ul></li>
+				
+				<li class="li_pr">
+					
+					<a id='tq'  href='/wps/portal/Home/main/tong-quan/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTE9NUzUwUTY0N0NEOE0wS080/'
+						title='' onclick='LoadmenuLeft_tanchau("tq");'>
+							<span  id='_span' >Tổng quan   </span>
+								  
+					</a>
+				
+				<ul id="tq_child"  class="tanchau_sub1 menu_hover" style="" >
+					
+								<li id='dktn_1' class="bg_mainnav_sub">	
+										
+										<a  id='dktn' href='/wps/portal/Home/main/tong-quan/dktn/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTE9NUzUwUTY0N0NEOE0wQzAz/'  title='' onclick='LoadSubmenu("dktn");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('dktn');">
+													<span  id='dktn_child_span' >Điều kiện tự nhiên</span>
+										</a>
+								</li>  
+						
+								<li id='bdhc_1' class="bg_mainnav_sub">	
+										
+										<a  id='bdhc' href='/wps/portal/Home/main/tong-quan/bdhc/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTE9NUzUwUTY0N0NEOE0wQzk0/'  title='' onclick='LoadSubmenu("bdhc");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('bdhc');">
+													<span  id='bdhc_child_span' >Bản đồ hành chính</span>
+										</a>
+								</li>  
+						
+								<li id='null_1' class="bg_mainnav_sub">	
+										
+										<a  id='null' href='/wps/portal/Home/main/tong-quan/ubnd/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTEdRRDkwUTZRRjQzVTUxMDQ3/'  title='' onclick='LoadSubmenu("null");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('null');">
+													<span  id='null_child_span' >Ủy ban nhân dân</span>
+										</a>
+								</li>  
+						
+								<li id='hdnd_1' class="bg_mainnav_sub">	
+										
+										<a  id='hdnd' href='/wps/portal/Home/main/tong-quan/hdnd/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTEdRRDkwUTZRRjQzVTUxME81/'  title='' onclick='LoadSubmenu("hdnd");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('hdnd');">
+													<span  id='hdnd_child_span' >Hội đồng nhân dân</span>
+										</a>
+								</li>  
+						
+								<li id='dvdt_1' class="bg_mainnav_sub">	
+										
+										<a  id='dvdt' href='/wps/portal/Home/main/tong-quan/dvdt/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTEdRRDkwUTZRRjQzVTUxR1E0/'  title='' onclick='LoadSubmenu("dvdt");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('dvdt');">
+													<span  id='dvdt_child_span' >Đảng và Đoàn Thể</span>
+										</a>
+								</li>  
+						
+								<li id='px_1' class="bg_mainnav_sub">	
+										
+										<a  id='px' href='/wps/portal/Home/main/tong-quan/px/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTDhJTTAwUTY2OTFRRU4zMDgz/'  title='' onclick='LoadSubmenu("px");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('px');">
+													<span  id='px_child_span' >Phường, Xã</span>
+										</a>
+								</li>  
+						
+								<li id='pbcm_1' class="bg_mainnav_sub">	
+										
+										<a  id='pbcm' href='/wps/portal/Home/main/tong-quan/pbcm/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTDhJTTAwUTY2OTFRRU4zMEEy/'  title='' onclick='LoadSubmenu("pbcm");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('pbcm');">
+													<span  id='pbcm_child_span' >Phòng Ban Chuyên Môn</span>
+										</a>
+								</li>  
+						
+								<li id='dvsn_1' class="bg_mainnav_sub">	
+										
+										<a  id='dvsn' href='/wps/portal/Home/main/tong-quan/dvsn/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTDhJTTAwUTY2OTFRRU4zMDUz/'  title='' onclick='LoadSubmenu("dvsn");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('dvsn');">
+													<span  id='dvsn_child_span' >Đơn Vị Sự Nghiệp</span>
+										</a>
+								</li>  
+						
+				</ul></li>
+				
+				<li class="li_pr">
+					
+					<a id='ttsk'  href='/wps/portal/Home/main/tin-tuc/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTDBUMkQwUVE0N0gxMEgzTDUw/'
+						title='' onclick='LoadmenuLeft_tanchau("ttsk");'>
+							<span  id='dvsn_span' >Tin tức sự kiện   </span>
+								  
+					</a>
+				
+				<ul id="ttsk_child"  class="tanchau_sub1 menu_hover" style="" >
+					
+								<li id='hdubhd_1' class="bg_mainnav_sub">	
+										
+										<a  id='hdubhd' href='/wps/portal/Home/main/tin-tuc/hd-ubnd-hdnd/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTE9NUzUwUTY0N0NEOE0wS0c3/'  title='' onclick='LoadSubmenu("hdubhd");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('hdubhd');">
+													<span  id='hdubhd_child_span' >Hoạt động UBND - HĐND</span>
+										</a>
+								</li>  
+						
+								<li id='hddt_1' class="bg_mainnav_sub">	
+										
+										<a  id='hddt' href='/wps/portal/Home/main/tin-tuc/hddt/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTE9NUzUwUTY0N0NEOE0wS0sw/'  title='' onclick='LoadSubmenu("hddt");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('hddt');">
+													<span  id='hddt_child_span' >Hoạt Động Đảng - Đoàn Thể</span>
+										</a>
+								</li>  
+						
+								<li id='ktxh_1' class="bg_mainnav_sub">	
+										
+										<a  id='ktxh' href='/wps/portal/Home/main/tin-tuc/ktxh/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTE9NUzUwUTY0N0NEOE0wSzI3/'  title='' onclick='LoadSubmenu("ktxh");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('ktxh');">
+													<span  id='ktxh_child_span' >Kinh Tế - Xã Hội</span>
+										</a>
+								</li>  
+						
+								<li id='anqp_1' class="bg_mainnav_sub">	
+										
+										<a  id='anqp' href='/wps/portal/Home/main/tin-tuc/anqp/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTE9NUzUwUTY0N0NEOE0wS0E0/'  title='' onclick='LoadSubmenu("anqp");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('anqp');">
+													<span  id='anqp_child_span' >An ninh - Quốc phòng</span>
+										</a>
+								</li>  
+						
+								<li id='vhxh_1' class="bg_mainnav_sub">	
+										
+										<a  id='vhxh' href='/wps/portal/Home/main/tin-tuc/vhxh/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTE9NUzUwUTY0N0NEOE0wS1E2/'  title='' onclick='LoadSubmenu("vhxh");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('vhxh');">
+													<span  id='vhxh_child_span' >Văn Hóa - Xã Hội</span>
+										</a>
+								</li>  
+						
+								<li id='khcncntt_1' class="bg_mainnav_sub">	
+										
+										<a  id='khcncntt' href='/wps/portal/Home/main/tin-tuc/khcncntt/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTE9NUzUwUTY0N0NEOE0wSzY1/'  title='' onclick='LoadSubmenu("khcncntt");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('khcncntt');">
+													<span  id='khcncntt_child_span' >Khoa học Công Nghệ - CNTT</span>
+										</a>
+								</li>  
+						
+				</ul></li>
+				
+				<li class="li_pr">
+					
+					<a id='TNVCHDT'  href='/wps/portal/Home/main/TNVCHDT/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTE9NUzUwUTY0N0NEOE0wS003/'
+						title='' onclick='LoadmenuLeft_tanchau("TNVCHDT");'>
+							<span  id='khcncntt_span' >TIỀM NĂNG VÀ CƠ HỘI ĐẦU TƯ   </span>
+								  
+					</a>
+				
+				<ul id="TNVCHDT_child"  class="tanchau_sub1 menu_hover" style="" >
+					
+								<li id='cspt_1' class="bg_mainnav_sub">	
+										
+										<a  id='cspt' href='/wps/portal/Home/main/TNVCHDT/cspt/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTEdRRDkwUTZRRjQzVTUxMEcz/'  title='' onclick='LoadSubmenu("cspt");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('cspt');">
+													<span  id='cspt_child_span' >Chính Sách Phát Triển</span>
+										</a>
+								</li>  
+						
+								<li id='null_1' class="bg_mainnav_sub">	
+										
+										<a  id='null' href='/wps/portal/Home/main/TNVCHDT/qhsdd/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTDhJTTAwUTY2OTFRRU4zMTMz/'  title='' onclick='LoadSubmenu("null");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('null');">
+													<span  id='null_child_span' >Quy Hoạch Sử Dụng Đất</span>
+										</a>
+								</li>  
+						
+				</ul></li>
+				
+				<li class="li_pr">
+					
+					<a id='null'  href='https://dichvucong.angiang.gov.vn/trang-chu/tra-cuu/bo-thu-tuc?ma-cap-thu-tuc=&ma-co-quan=UBND_TCU&ma-phuong-xa=&active-tab=cap-huyen-xa'
+						title='' onclick='LoadmenuLeft_tanchau("null");'>
+							<span  id='null_span' >Thủ tục hành chính   </span>
+								  
+					</a>
+				
+				<ul id="null_child"  class="tanchau_sub1 menu_hover" style="" >
+					
+				</ul></li>
+				
+				<li class="li_pr">
+					
+					<a id='dl'  href='/wps/portal/Home/main/dl/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTE9NUzUwUTY0N0NEOE0wQ082/'
+						title='' onclick='LoadmenuLeft_tanchau("dl");'>
+							<span  id='null_span' >Du Lịch   </span>
+								  
+					</a>
+				
+				<ul id="dl_child"  class="tanchau_sub1 menu_hover" style="" >
+					
+								<li id='lntt_1' class="bg_mainnav_sub">	
+										
+										<a  id='lntt' href='/wps/portal/Home/main/dl/lntt/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTE9NUzUwUTY0N0NEOE0wQ1A2/'  title='' onclick='LoadSubmenu("lntt");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('lntt');">
+													<span  id='lntt_child_span' >Làng nghề truyền thống</span>
+										</a>
+								</li>  
+						
+								<li id='vhat_1' class="bg_mainnav_sub">	
+										
+										<a  id='vhat' href='/wps/portal/Home/main/dl/vhat/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTE9NUzUwUTY0N0NEOE0wQzU1/'  title='' onclick='LoadSubmenu("vhat");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('vhat');">
+													<span  id='vhat_child_span' >Văn hóa ẩm thực</span>
+										</a>
+								</li>  
+						
+								<li id='dtlsvh_1' class="bg_mainnav_sub">	
+										
+										<a  id='dtlsvh' href='/wps/portal/Home/main/dl/dtlsvh/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTEdRRDkwUTZRRjQzVTUxMEY1/'  title='' onclick='LoadSubmenu("dtlsvh");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('dtlsvh');">
+													<span  id='dtlsvh_child_span' >Di tích lịch sử Văn Hóa</span>
+										</a>
+								</li>  
+						
+								<li id='lhtqct_1' class="bg_mainnav_sub">	
+										
+										<a  id='lhtqct' href='/wps/portal/Home/main/dl/lhtqct/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTEdRRDkwUTZRRjQzVTUxRzA0/'  title='' onclick='LoadSubmenu("lhtqct");' onmouseover="this.style.color='#FF6600'" onmouseout="Mouseout_Submenu('lhtqct');">
+													<span  id='lhtqct_child_span' >Lễ Hội Tập Quán Cổ Truyền</span>
+										</a>
+								</li>  
+						
+				</ul></li>
+				
+				<li class="li_pr">
+					
+					<a id='lichct'  href='/wps/portal/Home/main/lichct/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziLS1dPA28TQx9DEKMXAwCA03MPQwNPIx9Ak30w8EKDHAARwP9KEL6o_ApcfEygipAN9gpyMjJ2MDA3R-7AhQ3FORGGGR6OioCAPZDJPs!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2Xzk5REkwSzQxTE9NUzUwUTY0N0NEOE0wQzQ1/'
+						title='' onclick='LoadmenuLeft_tanchau("lichct");'>
+							<span  id='lhtqct_span' >Lịch công tác   </span>
+								  
+					</a>
+				
+				<ul id="lichct_child"  class="tanchau_sub1 menu_hover" style="" >
+					
+				</ul></li>
+				<!-- ket thuc skin -->
+	<script type="text/javascript">
+		function LoadmenuLeft_tanchau(id){
+		var listmenu_child = dojo.query(".tanchau_sub1"); 
+	
+		for(i=0; i<listmenu_child.length;i++){
+			var temp=listmenu_child[i].id;
+			var temp1=temp.replace("_child", "");
+			var objecttemp = document.getElementById(temp);
+			var objecttemp1 = document.getElementById(temp1);
+			
+			if(temp1==id)
+			{
+				
+				objecttemp.style.display = "block";
+			}
+			else
+			{
+				objecttemp.style.display = "none";
+				
+			}
+		}
+		
+		dojo.cookie("tanchau_mainnav",id,{path:"/"});
+		
+		}
+		function LoadSubmenu(id)
+		{
+			document.getElementById(id).style.color='#FF6600';
+			dojo.cookie("tanchau_mainnav_sub",id,{path:"/"});
+		}
+		function Mouseout_Submenu(id){
+			var cookie_sub =  dojo.cookie("tanchau_mainnav_sub");
+			if(id==cookie_sub)
+			{
+				document.getElementById(id).style.color='#FF6600';
+			}
+			else
+			{
+				document.getElementById(id).style.color='#010000';
+			}
+		}
+		
+		function LoadmenuLeftActive(){
+			var cookie_sub =  dojo.cookie("tanchau_mainnav_sub");
+			if(cookie_sub==undefined)
+			{
+				cookie_sub="";
+			}
+			else
+			{
+					document.getElementById(cookie_sub).style.color='#FF6600';
+			}
+			
+			var active_level =  dojo.cookie("tanchau_mainnav");
+			if(active_level==undefined)
+			{
+				active_level="angiang.tanchau.tongquan";
+				var active_obj = document.getElementById(active_level+"_child");
+				active_obj.style.display = "block";			
+			}
+			else     
+			{    
+				
+				var active_obj = document.getElementById(active_level+"_child");
+				active_obj.style.display = "block";
+			}
+			var listmenu_child = dojo.query(".tanchau_sub1");
+			for(i=0; i<listmenu_child.length;i++){
+				if((dojo.trim(listmenu_child[i].innerHTML))!="")
+				{	
+					var ad= listmenu_child[i].id;
+					var ac=ad.replace("_child", "");
+					document.getElementById(ac).href='#';
+				}						
+			}
+	
+		}
+		// LoadmenuLeftActive();
+	</script>
+	</ul>
+	
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		    
+		
+	
+	
+	
+	       		           
+    
+			     	
+    
+    
+
+
+    
+    
+	
+	
+		</div></div></div>
+			
+			
+<script>
+$(function() {
+    $("#playlist li").on("click", function() {
+        $("#videoarea").attr({
+            "src": $(this).attr("movieurl"),
+            "poster": "",
+            "autoplay": "autoplay"
+        })
+    })
+    $("#videoarea").attr({
+        "src": $("#playlist li").eq(0).attr("movieurl"),
+        "poster": $("#playlist li").eq(0).attr("moviesposter")
+    })
+})
+</script>
+			
+<script type="text/javascript">
+    (function($){
+        $(window).on("load",function(){
+            $(".content").mCustomScrollbar({
+                autoHideScrollbar:false,
+                theme:"rounded"
+            });
+        });
+    })(jQuery);
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.banner_r_11').bxSlider({
+            auto: true, mode: 'fade',
+            minSlides: 1,maxSlides: 5,moveSlides: 1,
+            pager: false, controls: true
+        });
+console.log('abc')
+        $('.banner_giua1').bxSlider({
+            auto: true,
+            // slideWidth: 1200,
+            mode: 'fade',
+            minSlides: 1,
+            pause: 10000,
+            maxSlides: 5,
+            moveSlides: 1,
+            //slideMargin: 20,
+            pager: true, controls: false
+        });
+    });
+</script>
+		
+		
+	
+
+    
+    	
+
+
+
+
+
+    	
+
+
+
+
+
+
+    	
+    
+
+
+<script type="text/javascript" src="http://tanchau.angiang.gov.vn/wps/themes/html/tanchauv1/themes/js/datetime.js"></script>
+</body>
+</html>
